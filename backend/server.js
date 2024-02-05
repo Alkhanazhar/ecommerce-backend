@@ -10,7 +10,7 @@ const dotenv = require('dotenv').config()
 const cors=require('cors');
 const path=require('path');
 const url=require("url")
-app.use(cors({origin:"http://localhost:5173"}));
+app.use(cors());
 
 //midlewares
 app.use(express.json());
